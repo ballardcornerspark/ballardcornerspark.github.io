@@ -1,0 +1,431 @@
+/*  
+Theme Name: bcp (Ballard Corners Park)
+Theme URI: n/a
+Description: 
+Version: 0.1
+Author: Gordon Waddell
+Author URI: http://bluefacedpixie.com/
+*/
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Palatino Linotype", Georgia, Times, Serif, serif;
+    size: 1em;
+    color: #796B66;
+    background-color: #FFFFEC;
+}
+
+a:link {
+    text-decoration: none;
+    color: #008000;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #008000; /* looks the same as not visited */
+/*    color: #84B3FF; */
+}
+
+/*
+   a:active {
+    color: #84B3FF;
+}
+*/
+
+a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+a img {
+	border: 0;
+}
+
+h3 {
+	font-size: 1.3em;
+	margin: 0 0 5px 0;
+	padding: 2px 0px 0px 0px;
+}
+
+#bg { 
+	width: 780px;
+	margin: 0 auto;
+	padding: 5px 10px 10px 10px;
+}
+
+#toplinks {
+    font-family: Tahoma, Verdana, Sans Serif, sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#toplinks ul, #toplinks li {
+    display: inline;
+    margin: 0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+#title {
+    font-family: Tahoma, Verdana, sans-serif;
+    text-align: center;
+    font-size: 3em;
+    color: #008000;
+    padding-top: 10px;
+}
+
+#title_info { /* currently unused */
+	float: right;
+	height: auto;
+	padding: 8px;
+	width: 250px;
+	margin: 10px 5px 0 0;
+	border: 2px solid #fff;	
+	text-align: center;
+}
+
+#title_info p {
+	margin: 0;
+}
+
+/*
+
+#leftcolumn {
+
+	width: 150px;
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-size: 0.9em;
+}
+*/
+
+#leftcolumn {	
+	clear: left;
+	float: left;
+    /* list-style: none; */
+	width: 180px;
+	margin: 0 0 3px 0;
+	padding: 0;
+	font-size: 1em;
+}	
+
+#eventsbox {
+    background: #F9FBFF;
+/* mark    padding: 1em 1em 1em 1em; */
+    border: 1px solid #3e3e3e;
+    
+    /* add */
+    margin-bottom: 1em;
+    
+}
+#eventsbox p {
+ padding: 1em 1em 0.8em 1em;  
+}
+
+#eventsbox h2 {
+    font-family: Tahoma, Verdana, Sans Serif, sans-serif;
+    font-weight: lighter;
+    font-size: 0.8em;
+
+/*    padding: 0.5em 0 0.5em 0; 
+*/
+/* Mark original     style="padding: 3px; color: rgb(255, 255, 255); background-color: rgb(0, 128, 0); font-variant: small-caps;" */
+    /* padding: 3px;  */
+    margin-left: 1em;
+    
+    color: #fff;  
+    background-color: #008000; 
+    
+    border: 2px solid #008000;
+   /* font-variant: small-caps; */
+}
+
+
+#fund-tally {
+    text-align: center;
+ /*   background-color: #FFFFEC; */
+/*    margin-bottom: 1em; */
+}
+
+#fund-tally caption {
+    caption-side: none;
+    font-family: Tahoma, Verdana, Sans Serif, sans-serif;
+    font-weight: lighter;
+    font-size: 0.8em;
+    margin-left: 1em;
+}
+
+#fund-tally table {
+    empty-cells: show;
+    text-align: center;
+ /*   background: #FFFFEC; */
+ /*   border: 1px solid #3e3e3e;} */
+}
+
+#fund-tally td {
+    font-family: "Trebuchet MS", Tahoma, Verdana, Sans Serif, sans-serif; 
+    font-size: 0.8em; 
+}
+
+#teaserbox {
+  /*  background: #F9FBFF; */
+  /*  padding: 1em 1em 1em 1em; */
+  /*  border: 1px solid #3e3e3e; */
+    font-size: 1em;
+    margin-right: 0.5em;
+}
+
+
+
+#sidebar {
+	margin: 0 2em 1em 0;
+	padding: 0 1em 0.5em 1em;
+	width: 170px;
+/*	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD; */
+/*	background: #F9FBFF; */
+    border-right: 0.5px dash #DDD;
+    font-family: Tahoma, Verdana, Sans Serif, sans-serif;
+    font-size: 0.8em;
+}
+
+#sidebar img {
+    width: 160px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #AAA;
+}
+
+#sidebar ul li {
+    margin: 0 0 0 -25px;
+    padding: 0 0 0 0; 
+    list-style: url(bullet.gif);
+}
+
+#sidebar li:hover {
+    background: #fefefe;
+}
+
+#sidebar h3 {
+  /*  margin: 8px 0 0 0; */
+    font-size: 0.8em;
+    font-weight: bold;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    margin-right: 1em;
+    border-top: thin dotted #008000;
+    border-left: thin dotted #008000;    
+}
+
+#sidebar-donate {
+    padding-left: 4em; 
+}
+
+#blogcontrols {
+ /*   margin: 0.5em 0 0.5em 0; */
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    border-top: thin dotted #008000;
+    border-left: thin dotted #007000;
+}
+
+#postarea {
+/*	float: right; */
+	margin:  0 0 5px 185px; 
+/* margin: this left adjust should be width of sidebar + 5px */
+	padding: 0 10px 5px 6px;
+/*	line-height: 1.4em; move to .post */
+}
+
+#postarea h2 {
+	margin: 0px;
+	padding: 4px 0 4px 0;
+	font-size: 12pt;
+}
+
+#postarea p {
+	margin: 0;
+}
+
+#postarea img {
+    text-align: middle;
+    border:1px #ccc solid;
+    padding:4px;
+    margin:5px;
+}
+
+#pagearea {
+	margin:  0 0 5px 0px;
+	padding: 0 10px 5px 6px;
+	line-height: 1.4em;
+}
+
+#pagearea h2 {
+    margin: 0px;
+    padding: 4px 0 4px 0;
+    font-size: 12pt;
+    text-align: center;
+}
+
+#pagearea p {
+	margin: 0;
+}
+
+input[type=text]:focus, textarea:focus { 
+   background: #EEE8AA;
+   border:1px solid #999; 
+}
+
+    
+#copyright {
+    font-family: Tahoma, Verdana, Sans Serif, sans-serif;
+    padding: 0.5em 1em 0.5em 1em;
+    /*	border-top: 1px solid #eee;
+       border-bottom: 1px solid #eee; */
+    text-align: right;
+    font-size: 0.8em; 
+    vertical-align: bottom;
+}
+   
+#narrowpage {
+    margin-left: 10em;
+    margin-right: 10em;
+    
+}
+.update {
+/* 	border-top: 1px solid #eee; */
+   margin: 0px 3em 0px 0;
+/*    font-size: 80%; */
+}
+
+.update-datum {
+        font-family: Tahoma, Verdana, Sans Serif, sans-serif;
+	padding-top: 2px;
+     	border-bottom: 1px solid #eee;
+
+/*	height: 30px;
+	margin: 5px 0 6px 0; */
+/*	border-top: 1px solid #eee; */
+	font-size: 70%; 
+/*	text-transform: uppercase;	*/
+	color: #808080;
+}
+
+.page-links {
+        font-family: Tahoma, Verdana, Sans Serif, sans-serif;
+	padding-top: 1em;
+/*	margin: 3em 0 0 0;  */
+/*	font-size: 70%;  */
+	text-transform: uppercase; 
+/*	color: #808080; */
+}
+
+.paginate {
+    /* should standardize with .page-links (which suck) */
+}
+.post {
+/*    padding-top: 1em;  */
+
+/*    line-height: 1em; */
+}
+
+.post p {
+    line-height: 1.4em;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+.post h3 {
+    padding-top: 3em;
+    border-bottom: 1px solid #eee;
+}
+
+.tablediv {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.post-datum {
+    text-align: right;
+        font-family: Tahoma, Verdana, Sans Serif, sans-serif;
+/*	padding-top: 2px; now have line-height in post area this too much */
+     	border-bottom: 1px solid #eee;
+        padding-top: 2px;
+padding-bottom: 0.5em;
+/*	height: 30px;
+	margin: 5px 0 6px 0; */
+/*	border-top: 1px solid #eee; */
+	font-size: 70%; 
+/*	text-transform: uppercase;	*/
+	color: #808080;
+}
+
+.archive-title {
+    padding-top: 1em;
+}
+
+.archive-datum {
+    font-family: Tahoma, Verdana, Sans Serif, sans-serif;
+    /*     	border-bottom: 1px solid #eee; */
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    
+    margin: 5px 0 6px 0; 
+    /*	border-top: 1px solid #eee; */
+    font-size: 0.7em;
+    color: #808080;
+}
+
+.sidebar-info {
+    font-family: Tahoma, Verdana, Sans Serif, sans-serif;
+    font-size: 1em;
+}
+
+.amazon {
+    margin: 0 -20px 0 -20px;
+}
+
+#comment { /* the actual leave comment box */
+    padding-top: 1em;
+    border-top: 1px solid #eee;
+}
+
+#comments p { /* displaying the comments */
+/*    line-height: 1.4em; */
+    padding-bottom: 1em;
+}
+
+.commentmetadata { /* should be -datum or -info */
+    font-family: Tahoma, Verdana, Sans Serif, sans-serif;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 70%; 
+    color: #808080;
+}
+    
+.comments-help {
+    padding-top: 1em;
+}
+.alignleft {float: left;}
+.alignright {float: right;}
+.aligncenter {text-align: center;}
+ol.commentlist li {margin: 0 0 10px 0;}
+ul.nostyle, ul.nostyle li ul {list-style: none; margin: 0; padding: 0;}
+ul.nostyle li, ul.nostyle li ul li {list-style: none; margin: 0 0 5px 20px; padding: 0;}
+ul.nostyle a {font-weight: bold;}
+
+.error {height: 170px; }
+
+
+ul.todo li { list-style-image: url(./todo.gif); margin-right: 2em; margin-left: 2em; }
+ul.todo li.done  { list-style-image: url(./done.gif); }
+
+
+    
+    
